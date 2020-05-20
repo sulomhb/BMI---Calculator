@@ -10,7 +10,7 @@ if (isset($_GET['submit'])) {
 }
 else{
 
-    echo $bmi = round($vekt / $høyde * $høyde) * 1E4 , 2);
+    echo round($vekt / ($høyde * $høyde) * 1E4 , 2);
 }
 
 }
