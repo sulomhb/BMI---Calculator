@@ -17,7 +17,7 @@ if (isset($_GET['submit'])) {
 
   
   if($vekt == 0 || $høyde == 0) {
-    echo "Hvordan kan høyden eller vekta de være 0? :D";
+    echo "Hvordan kan høyden eller vekta de være 0?";
 }
 else{
 
