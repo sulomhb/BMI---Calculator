@@ -1,9 +1,5 @@
 <?php
 
-function hils($navn) {
-    return "Hei {$navn}, hvordan går det?";
-}
-
 if (isset($_GET['submit'])) {
   $høyde= $_GET['høyde']; 
   $vekt=$_GET['vekt'];
