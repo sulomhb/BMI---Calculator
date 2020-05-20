@@ -30,7 +30,7 @@
       </form>
       <br/>
 <p>Din BMI er:</p>
-<?php require 'funksjoner.php'; ?>
+<?php require 'main.php'; ?>
     </div>
 
 </body>
